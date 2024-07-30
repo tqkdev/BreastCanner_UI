@@ -1,8 +1,37 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Giới Thiệu
 
-Currently, two official plugins are available:
+Đây là frontend của ứng dụng học máy dự đoán bệnh được xây dựng bằng React.js
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Mô tả
+- Người dùng có thể tìm hiểu về bệnh ung thư
+- Tìm hiểu về công nghệ học máy đã dùng
+- Tải 1 hình ảnh lên là dự đoán
+
+
+## Công Nghệ
+
+- **Frontend**: React.js, Tailwind CSS.
+
+
+## Cài Đặt
+
+1. Di chuyển đến thư mục frontend:
+
+    ```sh
+    git clone git@github.com:tqkdev/BreastCanner_UI.git
+    cd app/BreastCanner_UI
+    ```
+
+2. Cài đặt các phụ thuộc:
+
+    ```sh
+    npm install
+    ```
+
+3. Khởi động server phát triển frontend:
+
+    ```sh
+    npm run dev
+    ```
